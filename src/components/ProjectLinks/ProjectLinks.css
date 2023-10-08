@@ -1,0 +1,26 @@
+.Project-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.Project-links a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 2em;
+    font-weight: 500;
+    border-radius: 0.5em;
+    padding: 0.5em;
+    transition: all 0.25s;
+}
+.Project-links a span{
+    font-size: 0.5em;
+    font-weight: 200;
+}
+.Project-links a:hover{
+    color: #519444;
+}
