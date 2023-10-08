@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("src/assets/images/landscape-tree-nature-forest-wilderness-branch-838595-pxhere.com.jpg");
+  background-image: url("/assets/images/landscape-tree-nature-forest-wilderness-branch-838595-pxhere.com.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 

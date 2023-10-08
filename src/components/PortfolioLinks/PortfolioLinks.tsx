@@ -12,7 +12,7 @@ export default function PortfolioLinks():React.ReactElement {
             <a href="https://www.github.com/emilvn" target="_blank" rel="noreferrer">
                 <FaGithub/> <span>Github</span>
             </a>
-            <a href="src/assets/documents/CV.pdf" target="_blank" rel="noreferrer">
+            <a href="/assets/documents/CV.pdf" target="_blank" rel="noreferrer">
                 <FaFile/> <span>CV</span>
             </a>
         </div>
