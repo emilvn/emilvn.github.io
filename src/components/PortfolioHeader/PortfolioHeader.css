@@ -1,0 +1,11 @@
+.Portfolio-header{
+    text-align: center;
+}
+.Portfolio-header img{
+    height: 5em;
+    pointer-events: none;
+    border-radius: 100%;
+}
+.Portfolio-header h1{
+    font-size: 1em;
+}
