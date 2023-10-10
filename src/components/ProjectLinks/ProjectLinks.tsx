@@ -13,7 +13,7 @@ export default function ProjectLinks():ReactElement {
             <a href="https://emilvn.github.io/musicbase-frontend/" target="_blank" rel="noreferrer">
                 <MdOutlineLibraryMusic/><span>Musicbase</span>
             </a>
-            <a href="https://emilvn.github.io/delfinen/">
+            <a href="https://emilvn.github.io/delfinen/" target="_blank" rel="noreferrer">
                 <FaPersonSwimming/><span>Swimming club</span>
             </a>
         </div>
