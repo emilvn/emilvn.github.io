@@ -1,8 +1,8 @@
-import React from "react";
+import {ReactElement} from "react";
 import { Outlet, Link } from "react-router-dom";
 import "./Layout.css";
 
-export default function Layout():React.ReactElement {
+export default function Layout():ReactElement {
     return (
         <>
             <nav className={"Layout"}>
@@ -17,4 +17,4 @@ export default function Layout():React.ReactElement {
             <Outlet />
         </>
     )
-};
+}

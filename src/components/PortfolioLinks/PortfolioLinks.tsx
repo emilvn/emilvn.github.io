@@ -1,9 +1,9 @@
-import React from 'react';
+import {ReactElement} from 'react';
 import './PortfolioLinks.css';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
 import {FaFile} from 'react-icons/fa';
-export default function PortfolioLinks():React.ReactElement {
+export default function PortfolioLinks():ReactElement {
     return (
         <div className={"Portfolio-links"}>
             <a href="https://www.linkedin.com/in/emil-nielsen-48b259266/" target="_blank" rel="noreferrer">
