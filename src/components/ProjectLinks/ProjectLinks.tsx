@@ -16,11 +16,11 @@ export default function ProjectLinks():ReactElement {
                 </div>
             </div>
             <div className={"Project-link-div"}>
-                <a href="https://emilvn.github.io/musicbase-frontend/" target="_blank" rel="noreferrer">
+                <a href="https://emilvn.github.io/musicbase-frontend-react/" target="_blank" rel="noreferrer">
                     <MdOutlineLibraryMusic/><span>Musicbase</span>
                 </a>
                 <div className={"Project-link-description"}>
-                    <p>Frontend made with vanilla JS/HTML/CSS.
+                    <p>Frontend made with React and Typescript.
                     API made with NodeJS and express, hosted on Azure.
                     Database made with MySQL, hosted on Azure.</p>
                 </div>
