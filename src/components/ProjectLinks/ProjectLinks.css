@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100%;
+    max-width: 100%;
 }
 .Project-links a{
     display: flex;
@@ -23,4 +23,33 @@
 }
 .Project-links a:hover{
     color: #519444;
+}
+.Project-link-div{
+    display: flex;
+    flex-direction: column;
+}
+.Project-link-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1em;
+    max-width: 10vw;
+    font-size: 0.8em;
+    font-weight: 200;
+    color: #bbbbbb;
+}
+
+@media (max-width: 768px) {
+    .Project-links{
+        flex-direction: column;
+        align-items: center;
+    }
+    .Project-link-div{
+        flex-direction: row;
+    }
+    .Project-link-description{
+        margin-left: 0;
+        max-width: 100%;
+    }
 }

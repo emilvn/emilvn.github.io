@@ -7,15 +7,32 @@ import {FaPersonSwimming} from "react-icons/fa6";
 export default function ProjectLinks():ReactElement {
     return (
         <div className={"Project-links"}>
-            <a href="https://emilvn.github.io/weather-app" target="_blank" rel="noreferrer">
-                <TiWeatherPartlySunny/><span>Weather App</span>
-            </a>
-            <a href="https://emilvn.github.io/musicbase-frontend/" target="_blank" rel="noreferrer">
-                <MdOutlineLibraryMusic/><span>Musicbase</span>
-            </a>
-            <a href="https://emilvn.github.io/delfinen/" target="_blank" rel="noreferrer">
-                <FaPersonSwimming/><span>Swimming club</span>
-            </a>
+            <div className={"Project-link-div"}>
+                <a href="https://emilvn.github.io/weather-app" target="_blank" rel="noreferrer">
+                    <TiWeatherPartlySunny/><span>Weather App</span>
+                </a>
+                <div className={"Project-link-description"}>
+                    <p>Made with React and Typescript. Uses the OpenWeatherMap API to get weather data</p>
+                </div>
+            </div>
+            <div className={"Project-link-div"}>
+                <a href="https://emilvn.github.io/musicbase-frontend/" target="_blank" rel="noreferrer">
+                    <MdOutlineLibraryMusic/><span>Musicbase</span>
+                </a>
+                <div className={"Project-link-description"}>
+                    <p>Frontend made with vanilla JS/HTML/CSS.
+                    API made with NodeJS and express, hosted on Azure.
+                    Database made with MySQL, hosted on Azure.</p>
+                </div>
+            </div>
+            <div className={"Project-link-div"}>
+                <a href="https://emilvn.github.io/delfinen/" target="_blank" rel="noreferrer">
+                    <FaPersonSwimming/><span>Swim-club</span>
+                </a>
+                <div className={"Project-link-description"}>
+                    <p>Admin page for a swim club. Frontend made with vanilla JS/HTML/CSS. Backend implemented on Firebase using Realtime Database.</p>
+                </div>
+            </div>
         </div>
     );
 }

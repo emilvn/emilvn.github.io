@@ -12,4 +12,14 @@
 .Projects h1{
     font-size: 2em;
     font-weight: 500;
+    display: flex;
+    gap: 0.5em;
+    border-bottom: 1px solid white;
+}
+.Projects h1 a{
+    color: white;
+    text-decoration: none;
+}
+.Projects h1 a:hover{
+    color: #519444;
 }
