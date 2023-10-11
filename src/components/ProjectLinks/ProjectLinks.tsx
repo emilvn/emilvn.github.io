@@ -1,6 +1,6 @@
 import {ReactElement} from "react";
 import {TiWeatherPartlySunny} from "react-icons/ti";
-import "./ProjectLinks.css";
+import "../../styles/ProjectLinks.css";
 import {MdOutlineLibraryMusic} from "react-icons/md";
 import {FaPersonSwimming} from "react-icons/fa6";
 

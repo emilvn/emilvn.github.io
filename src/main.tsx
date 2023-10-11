@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Portfolio from './components/Portfolio/Portfolio.tsx';
-import './index.css';
+import './styles/index.css';
 import Layout from "./components/Layout/Layout.tsx";
 import Projects from "./components/Projects/Projects.tsx";
 

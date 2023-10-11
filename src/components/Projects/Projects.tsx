@@ -1,5 +1,5 @@
 import {ReactElement} from 'react';
-import './Projects.css';
+import '../../styles/Projects.css';
 import ProjectLinks from "../ProjectLinks/ProjectLinks.tsx";
 import {FaGithub} from "react-icons/fa";
 
