@@ -1,5 +1,5 @@
 import {ReactElement} from "react";
-import "../../styles/PortfolioHeader.css";
+import "../styles/PortfolioHeader.css";
 
 export default function PortfolioHeader():ReactElement{
     return (

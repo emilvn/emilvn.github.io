@@ -1,6 +1,6 @@
 import {ReactElement} from 'react';
-import '../../styles/Projects.css';
-import ProjectLinks from "../ProjectLinks/ProjectLinks.tsx";
+import '../styles/Projects.css';
+import ProjectLinks from "../components/ProjectLinks.tsx";
 import {FaGithub} from "react-icons/fa";
 
 export default function Projects():ReactElement{

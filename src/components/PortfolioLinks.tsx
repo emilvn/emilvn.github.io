@@ -1,5 +1,5 @@
 import {ReactElement} from 'react';
-import '../../styles/PortfolioLinks.css';
+import '../styles/PortfolioLinks.css';
 import {FaLinkedin} from 'react-icons/fa';
 import {FaGithub} from 'react-icons/fa';
 import {FaFile} from 'react-icons/fa';
